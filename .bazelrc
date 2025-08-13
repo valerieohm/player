@@ -1,0 +1,5 @@
+common --enable_bzlmod
+build --compilation_mode=dbg
+build --cxxopt='-std=c++23'
+build --cxxopt='-O0'
+build --cxxopt='-g'
