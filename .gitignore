@@ -1,2 +1,4 @@
 MODULE.bazel.lock
+*.mp4
+*.pcm
 .vscode

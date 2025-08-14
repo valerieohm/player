@@ -4,7 +4,7 @@ cc_library(
     name = "libalsaout",
     srcs = glob(["*.cpp"]),
     hdrs = glob(["*.hpp"]),
-    includes = ["include"],
+    includes = ["../../include"],
     deps = ["//source/common:libcommon"],
     visibility = ["//visibility:public"],
     copts = ["-g", "-O0"],
